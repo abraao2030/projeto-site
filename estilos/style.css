@@ -1,61 +1,66 @@
-@charset "UTF-8";
+@charset "UTF-8"; /*Comando para poder usar as acentualizações*/
 
-* {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    
+* { /*Configurações globais do projeto*/
+
+    font-family: Arial, Helvetica, sans-serif; /*Familia da fonte*/
+    font-size: 16px; /*Tamanho da fonte*/
 }
 
-body {
-    background-image:linear-gradient(45deg, rgba(255, 0, 0, 0.623), rgba(0, 0, 255, 0.582));
+body { /*Fundo do projeto*/
+
+    background-image:linear-gradient(45deg, rgba(255, 0, 0, 0.623), rgba(0, 0, 255, 0.582)); /*Linear gradiente de fundo com duas cores*/
    
 }
 
-h1 { 
-    font-size: 2em;
-    color: rgb(28, 28, 102);
-}
-
-h2 {
-    font-size: 1.5em;
-    color: rgb(28, 28, 102);
-}
-
-img.lado {
-    float: right;
-}
-
-a {
-    text-decoration: none;
-    font-weight: bold;
-    color: rgb(16, 16, 56);
-}
-
-abbr {
-    text-decoration: overline;
-    
-}
-
-abbr:hover {
-    color: rgb(202, 52, 182);
-}
-
-a::after {
-    content: '\00A0\1F517';
-}
-
-a:hover {
-    text-decoration: underline;
-    color: rgb(177, 40, 177);
-}
-
-main {
-    background-color: white;
-    width: 500px;
-    margin: auto;
-    padding: 20px;
-    border-radius: 20px;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.507);
+main { /*A caixa de conteúdo principal */
+    background-color: white; /*Cor de fundo branca*/
+    width: 500px; /*Largura*/
+    margin: auto; /*Alinhada no centro*/
+    padding: 20px; /*Margem interna*/
+    border-radius: 20px; /*Bordas arrendondadas*/
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.507); /*Sombra na caixa */
     text-decoration: solid;
     text-decoration-color: aquamarine;
 }
+
+h1 { /*Todo o paragrafo de nivel 1*/
+
+    font-size: 2em; /*Tamanho da fonte */
+    color: rgb(17, 17, 131);
+}
+
+h2 { /*Todo o paragrafo de nivel 2*/
+    font-size: 1.5em;
+    color: rgb(51, 51, 177);
+}
+
+img.lado { /*Todas as classes imagem lado tera */
+    float: right; /*indica que a foto vai flutuar à direita do bloco*/
+   /* A propriedade float do CSS determina que um elemento deve ser retirado do seu fluxo normal e colocado ao longo do lado direito ou esquerdo do seu contêiner, permitindo que textos e elementos em linha se posicionem ao seu redor*/
+}
+
+a { /*Todo o link*/
+    text-decoration: none; /*Não tera texto decorado*/
+    font-weight: bold; /*O peso da fonte ser negrito leve*/
+    color: rgb(16, 16, 56);
+}
+
+abbr { 
+    text-decoration: overline; /*Tera um tracejado em cima*/
+    /*O elemento <abbr> (ou Elemento de Abreviação HTML) é usado para representar uma abreviação e, opcionalmente, fornecer uma descrição completa para ela. Se presente, o atributo title deve conter essa descrição completa e apenas ela*/
+}
+
+abbr:hover { /*A Abreviação em HTML  quando eu passar o mouse em cima*/
+    color: rgb(202, 52, 182);
+}
+
+a::after { 
+    content: '\00A0\1F517'; /*Adiciona um espaço (\00A0\) adiciona a corrente 1F517*/
+    /*::after é uma maneira semântica de adicionar conteúdo extra aos elementos HTML e pode ser usado de várias formas criativas!*/
+}
+
+a:hover { /*Os links quando eu passar o mouse por cima */
+    text-decoration: underline; /*O texto ficara decorado*/
+    color: rgb(177, 40, 177);
+}
+
