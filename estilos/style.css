@@ -12,4 +12,6 @@ main {
     width: 500px;
     margin: auto;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.507);
+    text-decoration: solid;
+    text-decoration-color: aquamarine;
 }
