@@ -46,7 +46,7 @@ a { /*Todo o link*/
 }
 
 abbr { 
-    text-decoration: overline; /*Tera um tracejado em cima*/
+    text-decoration: overline; /*Tira um tracejado em cima*/
     /*O elemento <abbr> (ou Elemento de Abreviação HTML) é usado para representar uma abreviação e, opcionalmente, fornecer uma descrição completa para ela. Se presente, o atributo title deve conter essa descrição completa e apenas ela*/
 }
 
