@@ -7,6 +7,31 @@ body {
     background-color: cornflowerblue;
 }
 
+h1 { 
+    font-size: 2em;
+    color: rgb(28, 28, 102);
+}
+
+h2 {
+    font-size: 1.5em;
+    color: rgb(28, 28, 102);
+}
+
+img.lado {
+    float: right;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(16, 16, 56);
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(61, 24, 61);
+}
+
 main {
     background-color: white;
     width: 500px;
